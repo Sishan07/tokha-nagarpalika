@@ -1,0 +1,179 @@
+body{
+    padding: 50px;
+}
+
+.container {
+    max-width: 600px !important;
+    margin: 0 auto;
+    padding: 50px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+
+.form-group{
+    margin-bottom: 30px;
+}
+
+/* Form styling */
+table {
+    overflow-x: scroll;
+    width: 100%;
+    border-collapse: collapse;
+    white-space: nowrap;
+    border: 2px solid #000;
+    margin-top: 35px;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+    border: 2px solid #000; 
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tbody, td, tfoot, th, thead, tr {
+    border-color: inherit !important;
+    border-style: solid !important;
+    border-width: 2px !important;
+}
+
+/* logout button styling */
+.logout {
+    margin-top: 20px;
+    text-align: right;
+}
+
+.logout .btn {
+    background-color: #FF5733;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* add row styking */
+
+/* delete button */
+.delete-row-button {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 13894px;
+    margin-top: -35px;
+}
+
+.update-row-button{
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 13961px;
+    margin-top: -59px;
+}
+
+
+
+
+/* form button styling */
+
+.form-submit {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.form-submit input[type="submit"] {
+    background-color: #008CBA;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+/* Style only the elements within the custom-form class */
+.custom-form {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 5px;
+    width: 400px;
+    margin: 0 auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.custom-form label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.custom-form input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.custom-form .form-submit input[type="submit"] {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 3px;
+    transition: background-color 0.3s ease;
+}
+
+.custom-form .form-submit input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+
+
+  /* For page numbar */
+
+
+.pagination {
+    text-align: center;
+    margin-top: 45px;
+}
+
+#row{
+    margin-top: 30px;
+    margin-left: 2px;
+}
+
+.pagination a {
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 2px;
+    background-color: #007bff; 
+    color: #fff; 
+    text-decoration: none;
+    border-radius: 4px;
+  
+}
+
+.pagination a.current {
+    background-color: #555;
+}
+
+
+.pagination a:hover {
+    background-color: #0056b3; 
+}
+
+
+.pagination a.prev,
+.pagination a.next {
+    padding: 5px 15px;
+}
+
+
+.pagination a.disabled {
+    background-color: #ddd;
+    color: #888;
+    pointer-events: none;
+}
